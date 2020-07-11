@@ -70,7 +70,7 @@ float Blacket(){
 			cin.get(sign);
 			r3= Calculate();
 			if(sign==')')
-				sign = getchar();
+				cin.get(sign);
 			else{
 				std::cout<<"Error!"<<std::endl;
 				exit(-1);
